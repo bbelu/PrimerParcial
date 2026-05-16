@@ -120,9 +120,10 @@ img{
     display: block;
   margin: auto;
   width: 50%;
+  border: 1px solid rgb(4, 12, 33);
 }
 .piefoto strong{
-color: #040c21;
+color: rgb(4, 12, 33);
 }
 .piefoto{
     text-align: center;

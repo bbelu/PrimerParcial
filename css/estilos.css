@@ -11,7 +11,7 @@ html {
 header {
   display: block;
   text-align: center;
-  background-color: rgb(243, 243, 243);
+  background-color:  rgb(254, 254, 254);
   width: 100%;
   padding: 0.5em 0;
   margin-bottom: 0; 
@@ -87,7 +87,7 @@ text-align: center;
 }
 
 #contenido{
-    background-image: linear-gradient(to top, rgb(6, 120, 173), rgb(243, 243, 243));
+    background-image: linear-gradient(to top, rgb(6, 120, 173), rgb(254, 254, 254));
 	width:50%;
 	padding: 2em;
     margin: 0 auto;
@@ -105,6 +105,8 @@ footer{
     text-align: center;
     font-size: 0.9em;
     margin-top: 3em;
+     background-color:  rgba(255, 255, 255, 0.063);
+    padding: 2em;
 }
 
 section{
@@ -115,4 +117,5 @@ section{
 iframe{
     display: block;
     margin: auto;
+   
 }

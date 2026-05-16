@@ -16,28 +16,17 @@ header {
   padding: 0.5em 0;
   margin-bottom: 0; 
 }
-/* 
-header h1 {
-  display: block;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  padding: 1em 0;
-  margin-bottom: 0; 
-}
-
-nav ul {
-  display: inline-block;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}*/
 
 body {
     background-image: url('../img/fondo.png');
     background-repeat: repeat;
     margin: 0;
     padding: 0;
+
+}
+
+p{
+ text-align: justify;
 }
 
 nav ul{
@@ -119,8 +108,22 @@ iframe{
     margin: auto;
    
 }
-.obras ul{
-     padding: 0;
+#obras ul{
+    padding: 0;
     margin: 0;
     list-style: none;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+img{
+    display: block;
+  margin: auto;
+  width: 50%;
+}
+.piefoto strong{
+color: #040c21;
+}
+.piefoto{
+    text-align: center;
 }

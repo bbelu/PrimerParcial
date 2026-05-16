@@ -105,7 +105,8 @@ section{
 
 iframe{
     display: block;
-    margin: auto;
+    margin:auto;
+    padding: 1em;
    
 }
 #obras ul{

@@ -11,6 +11,10 @@ html {
 header {
   display: block;
   text-align: center;
+  background-color:  rgb(243, 243, 243);
+  width: 100%;
+  padding: 4em 0;
+  margin-bottom: 0; 
 }
 /* 
 nav ul {
@@ -19,6 +23,13 @@ nav ul {
   padding: 0;
   margin: 0;
 }*/
+
+body {
+    background-image: url('../img/fondo.png');
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
 
 nav ul{
     padding: 0;
@@ -31,24 +42,38 @@ nav li{
 nav a {
 	font-size: 1.2em;
 	line-height: 2.2em;
-	padding: 0.4em 1em;
+	padding: 0.5em 2em;
 	text-align: center;
 	text-decoration: none;
 }
 
 nav a:link {
-	background-color: #999;
-	color: #000;
-}/*CAMBIA LOS COLORES DESPUES*/
+	background-color: #60d8fd;
+	color: #27b7ff;
+}
 nav a:visited {
-	background-color: #999;
-	color: #000;
-}/*CAMBIA LOS COLORES DESPUES*/
+	background-color:  #7abeeb;
+	color: #484f55;
+}
 nav a:hover {
-	background-color: #000;
+	background-color: #090e20;
 	color: #FFF;
 }
 nav a:active {
-	background-color: #F00;
-	color: #FFF;
-}/*CAMBIA LOS COLORES DESPUES*/
+	background-color: rgb(164, 190, 193);
+	color: #1b1651;
+}
+
+
+
+#contenido{
+    background-image: linear-gradient(to top, rgb(6, 120, 173), rgb(243, 243, 243));
+	width:50%;
+	padding: 2em;
+    margin: 0 auto;
+    border-top: 0;
+}
+
+#contenido h3{
+    text-align: center;
+}

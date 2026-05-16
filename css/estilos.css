@@ -11,12 +11,21 @@ html {
 header {
   display: block;
   text-align: center;
-  background-color:  rgb(243, 243, 243);
+  background-color: rgb(243, 243, 243);
   width: 100%;
-  padding: 4em 0;
+  padding: 0.5em 0;
   margin-bottom: 0; 
 }
 /* 
+header h1 {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 1em 0;
+  margin-bottom: 0; 
+}
+
 nav ul {
   display: inline-block;
   list-style: none;
@@ -64,7 +73,18 @@ nav a:active {
 	color: #1b1651;
 }
 
+h1{
+ font-family: "Arvo", serif;
+ font-size: 9em;
+ background-image: url('../img/fondo.png');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} /* recomendo IA*/
 
+.subtitulos{
+font-family: "Arvo", serif;
+text-align: center;
+}
 
 #contenido{
     background-image: linear-gradient(to top, rgb(6, 120, 173), rgb(243, 243, 243));
@@ -76,4 +96,23 @@ nav a:active {
 
 #contenido h3{
     text-align: center;
+    font-family: "Arvo", serif;
+    font-size: 2em;
+}
+
+footer{
+    font-family: "Arvo", serif;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 3em;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.063);
+    padding: 2em;
+}
+
+iframe{
+    display: block;
+    margin: auto;
 }
